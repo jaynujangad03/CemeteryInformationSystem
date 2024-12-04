@@ -165,8 +165,10 @@ $singleuser = $user->single_user($_SESSION['USERID']);
                         </li> 
                          <li>
                              <a href="<?php echo web_root; ?>admin/report/index.php" ><i class="fa fa-list fa-fw"></i>Report</a>
-            
                         </li> 
+                        <li>
+                             <a href="<?php echo web_root; ?>admin/request/index.php" ><i class="fa fa-list fa-fw"></i>Request</a>
+                        </li>
                         
                  <?php }  ?>
  

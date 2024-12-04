@@ -135,6 +135,9 @@
                     <li class="dropdown-toggle <?php echo (isset($_GET['q']) && $_GET['q'] == 'about') ? "active" : ""; ?>">
                         <a href="<?php echo web_root . 'index.php?q=about'; ?>"> About Us</a>
                     </li>
+                    <li class="dropdown-toggle <?php echo (isset($_GET['q']) && $_GET['q'] == 'reserve') ? "active" : ""; ?>">
+                        <a href="<?php echo web_root . 'index.php?q=reserve'; ?>"> Reservation</a>
+                    </li>
                 </ul>           
             </div> 
         </div>

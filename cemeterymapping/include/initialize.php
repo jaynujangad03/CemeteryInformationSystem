@@ -28,4 +28,5 @@ require_once(LIB_PATH.DS."people.php");
 require_once(LIB_PATH.DS."transaction.php");
 // require_once(LIB_PATH.DS."settings.php");
 require_once(LIB_PATH.DS."database.php");
+
 ?>

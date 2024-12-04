@@ -26,14 +26,18 @@ switch ($view) {
 		$content='person.php';		
 		break;
   
+		case 'reserve' :
+			$title="Reservation";	
+			$content='reserve.php';		
+			break;
+
+			
 	default :
 	    $title="Home";	
 		$content ='home.php';		
 
 }
 
-       
-    
  
 require_once("theme/templates.php");
  
