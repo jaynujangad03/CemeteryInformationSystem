@@ -4,7 +4,7 @@
         <div class="panel panel-default" > 
     <div class="panel-body">
     <div class="list-group">
-     <div class="well well-sm "><b>   Office hours of Municipality of Looc </b> </div>
+     <div class="well well-sm "><b>   Office hours of Minglanilla </b> </div>
         <ul >
             <li>  
               <b>Monday - Friday 8:00AM - 5:00PM </b> 

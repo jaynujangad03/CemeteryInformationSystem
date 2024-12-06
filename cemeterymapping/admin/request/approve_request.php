@@ -1,19 +1,22 @@
 <?php
-require_once("include/initialize.php");
+require_once("../../include/initialize.php");
 
-if (!isset($_SESSION['USERID']) || $_SESSION['user_role'] != 'admin') {
+if (!isset($_SESSION['USERID']) || $_SESSION['U_ROLE'] != 'Administrator') {
     redirect(web_root . "admin/index.php");
 }
 
 if (isset($_GET['id'])) {
-    $request_id = $_GET['id'];
+    $id = $_GET['id'];
 
-    $sql = "UPDATE reservations SET status = 'approved' WHERE id = $request_id";
+    // Update the reservation status to 'Approved'
+    $sql = "UPDATE `reservations` SET `status` = 'Approved' WHERE `id` = '$id'";
     $mydb->setQuery($sql);
-    $mydb->executeQuery();
+    $result = $mydb->executeQuery();
 
-    // Redirect back to the request page
-    header('Location: request.php');
-    exit();
+    if ($result) {
+        redirect("request.php");
+    } else {
+        echo "Error in approving the reservation request.";
+    }
 }
 ?>

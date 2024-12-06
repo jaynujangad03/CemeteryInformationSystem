@@ -76,7 +76,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- <img src="<?php echo web_root; ?>img/adminloginlogo.png" style="height: px;"> -->
-                 <a class="navbar-brand"  href="<?php echo web_root; ?>admin/index.php" >Cemetery Mapping and Information System</a>  
+                 <a class="navbar-brand"  href="<?php echo web_root; ?>admin/index.php" >Cemetery Information System</a>  
             </div>
             <!-- /.navbar-header -->
 
@@ -430,5 +430,4 @@ $('#date_picker').datetimepicker({
 </script>  
  
 </body>
-<footer><div style="text-align: center;">Copyrignt &copy; Cemetery Mapping and Information System</div></footer>
 </html>
